@@ -1,0 +1,11 @@
+div.container-listas {
+	display: flex;
+}
+
+.container-listas h2 {
+	display: block;
+}
+
+.listas {
+	margin: 0px 30px;
+}

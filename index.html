@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="En">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML</title>
-    <base href="index.html" target="_blank">
+    <meta name="description" content="page about HTML">
+    <meta name="author" content="Antony Aguirre">
+    <meta name="keywords" content="HTML">
+    <base href="index.html">
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <h1>Titulo de mi pagina <mark><abbr title="HyperText Markup Language">HTML</abbr></mark></h1>
+    <h1 style="color: slateblue; font-size: 2em; padding: 10px; border: 3px dashed blue;">Titulo de mi pagina
+        <mark><abbr title="HyperText Markup Language">HTML</abbr></mark>
+    </h1>
     <p>En esta pagina vamos a plasmar el contenido <b>HTML</b> ademas de manejar sus diferentes <em>"tags"</em> por
         medio de las cuales funciona.</p>
     <hr>
@@ -25,7 +31,40 @@
         5
         millones en todo el mundo.
     </blockquote>
-    <img src="" alt="">
+    <div class="container-listas">
+        <h2 class="titulo-listas">listas</h2>
+        <ol type="a" class="listas">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+        </ol>
+        <br>
+        <ul type="square" class="listas">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+        </ul>
+        <br>
+        <dl class="listas">
+            <dt>Aston martin</dt>
+            <dd>Es un coche muy veloz</dd>
+            <dt>Mustang gt</dt>
+            <dd>y también muy costoso</dd>
+        </dl>
+    </div>
+    <div>
+        <pre>
+        Este  es  un  texto  preformateado
+            
+        para  que  se  muestre  tal  cual  
+        
+        lo  escribo.
+        </pre>
+    </div>
 </body>
 
 </html>

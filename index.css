@@ -1,3 +1,7 @@
+body {
+	background-color: rgba(196, 196, 134, 0.849);
+}
+
 div.container-listas {
 	display: flex;
 }
@@ -18,4 +22,9 @@ div.container-listas {
 
 .Contain-IMG figcaption {
 	font-size: large;
+}
+
+.lorem {
+	margin: 10px;
+	max-width: 70vw;
 }

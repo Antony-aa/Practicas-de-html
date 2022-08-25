@@ -28,3 +28,11 @@ div.container-listas {
 	margin: 10px;
 	max-width: 70vw;
 }
+
+.menu-desplegable {
+	padding: 12px;
+}
+
+.menu-desplegable img {
+	max-width: 40vw;
+}

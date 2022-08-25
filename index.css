@@ -34,5 +34,14 @@ div.container-listas {
 }
 
 .menu-desplegable img {
-	max-width: 40vw;
+	max-width: 20vw;
+}
+
+.links:active {
+	display: inline-flex;
+	position: relative;
+}
+
+abbr {
+	text-decoration: none;
 }

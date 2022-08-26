@@ -19,3 +19,26 @@ div.container-listas {
 .Contain-IMG figcaption {
 	font-size: large;
 }
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #444;
+}
+/* Espacio de relleno en celdas y cabeceras */
+td,
+th {
+	padding: 10px;
+}
+/* Modificación de estilos en cabeceras */
+th {
+	background: #000;
+	color: #fff;
+	text-transform: uppercase;
+}
+/* Modificación de estilos en celdas */
+td {
+	text-align: center;
+	border-bottom: 2px solid #111;
+	color: #333;
+	font-size: 18px;
+}

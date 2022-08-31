@@ -21,8 +21,17 @@ div.container-listas {
 }
 
 table {
+	margin-top: 10px;
 	border-collapse: collapse;
 	border: 1px solid #444;
+}
+table caption {
+	font-family: Geneva, Tahoma, sans-serif;
+	font-size: 20px;
+	padding: 5px;
+	background-color: rgb(52, 150, 150);
+	border: 2px solid black;
+	text-transform: uppercase;
 }
 /* Espacio de relleno en celdas y cabeceras */
 td,
@@ -40,4 +49,8 @@ td {
 	text-align: center;
 	border-bottom: 2px solid #111;
 	font-size: 18px;
+}
+
+form {
+	margin: 20px;
 }

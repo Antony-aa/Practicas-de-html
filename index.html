@@ -125,6 +125,7 @@
             <!-- Primera celda de la primera fila -->
             <td>Celda 2x1</td>
             <td>Celda 3x1</td>
+            <td>Celda 4x1</td>
         </tr>
         <!-- Segunda fila -->
         <tr>
@@ -138,6 +139,40 @@
         </colgroup>
     </table>
 
+    <form action="">
+        <fieldset>
+            <legend>Titulo del INPUT</legend>
+            <label for="name">Ingrese su nombre: </label>
+            <input type="text" name="name"><br>
+            <label for="tel">Ingrese su numero de telefono: </label>
+            <input type="tel" name="number"><br>
+            <label for="email">Ingrese su email: </label>
+            <input type="email" name="email"><br>
+            <label for="date">Ingrese su cumpleaños: </label>
+            <input type="date" name="birthday">
+        </fieldset>
+    </form>
+    <section class="Listas">
+        <h3>Listas</h2>
+            <select name="Language" id="Language">
+                <optgroup label="Lenguages">
+                    <option value="Ingles">Ingles</option>
+                    <option value="Frances">Frances</option>
+                    <option value="Italiano">Italiano</option>
+                    <option value="Español">Español</option>
+                </optgroup>
+            </select>
+            <br>
+            <input list="Lista" name="lista" id="lista" placeholder="Seleccione un idioma">
+            <datalist name="Lista" id="Lista">
+                <optgroup label="Languages">
+                    <option value="Ingles">English</option>
+                    <option value="Frances">French</option>
+                    <option value="Italiano">Italian</option>
+                    <option value="Español">Español</option>
+                </optgroup>
+            </datalist>
+    </section>
 </body>
 
 </html>

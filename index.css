@@ -53,6 +53,8 @@ td {
 
 form {
 	margin: 20px;
+	margin-right: 5px;
+	max-width: 55vw;
 }
 
 form fieldset {
@@ -73,4 +75,17 @@ fieldset legend {
 
 input {
 	margin-right: 100px;
+}
+
+details {
+	text-transform: uppercase;
+	margin: 10px;
+	padding: 10px;
+	border: 3px solid rgb(18, 60, 88);
+	background: lightseagreen;
+}
+
+table {
+	display: inline-block;
+	max-width: 40vw;
 }

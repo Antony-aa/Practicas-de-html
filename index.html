@@ -11,6 +11,13 @@
     <meta name="keywords" content="HTML">
     <base href="index.html">
     <link rel="stylesheet" href="index.css">
+
+    <script>
+        function toggleHidden(selector) {
+            element = document.querySelector(selector);
+            element.hidden = element.hidden ? false : true;
+        }
+    </script>
 </head>
 
 <body>
@@ -96,7 +103,7 @@
         </p>
 
         <details>
-            <summary>Fotos</summary>
+            <summary><b>Fotos</b></summary>
             <picture>
                 <source media="(min-width: 1200px)" srcset="assets/Moto-blanca.jpg">
                 <source media="(min-width: 900px)" srcset="assets/KawasakiZH2.jpg">
@@ -110,7 +117,7 @@
             allowfullscreen></iframe>
     </section>
 
-    <table>
+    <table contenteditable>
         <!-- Cabecera -->
         <caption>Titulo de la Tabla</caption>
         <tr>
@@ -175,7 +182,19 @@
                 <option value="Español">Español</option>
             </optgroup>
         </datalist>
-    </section>
+    </section> <br> <br>
+
+    <dialog id="ms">
+        <p>¡Hola, soy un mensaje!</p>
+        <button id="close" onclick="document.getElementById('ms').close()">Ok!,cerrar</button>
+    </dialog>
+    <button id="show" onclick="document.getElementById('ms').show()">Mostrar</button>
+    <br> <br>
+
+    <button onClick="toggleHidden('#info')">
+        Mostrar/ocultar información
+    </button>
+    <div id="info" hidden>Información</div>
 </body>
 
 </html>

@@ -54,3 +54,23 @@ td {
 form {
 	margin: 20px;
 }
+
+form fieldset {
+	background-color: aquamarine;
+	border-radius: 10px;
+}
+fieldset legend {
+	background: rgba(2, 179, 179, 0.808);
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid rgb(104, 104, 104);
+}
+
+.button-datos {
+	font-size: large;
+	float: inline-end;
+}
+
+input {
+	margin-right: 100px;
+}

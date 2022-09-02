@@ -45,3 +45,12 @@ div.container-listas {
 abbr {
 	text-decoration: none;
 }
+table {
+	border: 1px solid #222222;
+}
+table td {
+	padding: 5px;
+}
+table th {
+	border-bottom: black solid 2px;
+}

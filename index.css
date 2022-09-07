@@ -3,6 +3,12 @@ body {
 }
 h1 {
 	max-width: fit-content;
+	color: rgb(114, 121, 25) !important;
+}
+
+.guernica {
+	color: red;
+	/*Queda invalidado porque existe ya un estilo en linea el cual contiene mayor especificidad*/
 }
 .contain-list {
 	border: 2px solid green;

@@ -3,6 +3,13 @@ body {
 }
 h1 {
 	max-width: fit-content;
+	font-size: 10em; /*el tamaño de em es igual al tamaño de la caja contenedora */
+	color: rgb(114, 121, 25) !important;
+}
+
+.guernica {
+	color: red;
+	/*Queda invalidado porque existe ya un estilo en linea el cual contiene mayor especificidad*/
 }
 .contain-list {
 	border: 2px solid green;
@@ -41,6 +48,8 @@ div.container-listas {
 
 .menu-desplegable img {
 	max-width: 20vw;
+	border-radius: 20%;
+	border: black 3px solid;
 }
 
 .links:active {

@@ -52,3 +52,12 @@
 	transform: rotate(-5deg);
 	/*aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, sesgar, etc.*/
 }
+
+.caja1,
+.caja2 {
+	margin: 10px;
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	outline: 2px solid black;
+}

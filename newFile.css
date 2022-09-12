@@ -41,6 +41,7 @@
 }
 
 .contain-title-h1 {
+	margin: 15px auto;
 	font-size: 25px;
 	color: #efefef;
 	background: black;
@@ -52,11 +53,14 @@
 	transform: rotate(-5deg);
 	/*aplica una transformación 2D o 3D a un elemento. Esta propiedad le permite rotar, escalar, mover, sesgar, etc.*/
 }
-
+hr {
+	color: black;
+}
 .caja1,
-.caja2 {
-	margin: 10px;
-	display: inline-block;
+.caja2,
+.caja3,
+.caja4 {
+	margin: auto;
 	width: 100px;
 	height: 100px;
 	outline: 2px solid black;

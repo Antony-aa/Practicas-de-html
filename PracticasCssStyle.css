@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.containNav {
+	background: rgb(199, 199, 45);
+	padding: 8px;
+	height: 30px;
+	border: 5px double rgb(156, 130, 112);
+	box-sizing: content-box;
+}
+
+.divs {
+	margin: 10px;
+	font-size: 20px;
+}
+.caja2 {
+	position: absolute;
+	z-index: 1;
+	left: 80px;
+	height: 100px;
+	width: 100px;
+	background: darkolivegreen;
+}
+.caja3 {
+	position: relative;
+	z-index: 10;
+	top: 25px;
+	height: 100px;
+	width: 100px;
+	background: darkcyan;
+}
+.caja4 {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	background: darkmagenta;
+}
+
+.divPadre {
+	width: 300px;
+	height: 300px;
+	margin: 50px;
+	background: rgb(79, 76, 231);
+}
+
+.divHijo {
+	z-index: -1; /*Esta es la unica manera para que el contenedor padre se coloque encima del contenedor hijo, que el hijo tenga un z-index de -1 y el padre no tenga un z-index definido*/
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: -40px;
+	left: -40px;
+	background: rgb(116, 165, 59);
+}

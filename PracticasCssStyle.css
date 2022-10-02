@@ -5,20 +5,26 @@
 
 .containNav {
 	background: rgb(199, 199, 45);
+	font-size: large;
 	padding: 8px;
-	height: 30px;
+	height: 28px;
 	border: 5px double rgb(156, 130, 112);
 	box-sizing: content-box;
+	position: fixed;
+	right: 0;
 }
 
 .divs {
+	text-align: center;
 	margin: 10px;
 	font-size: 20px;
+	position: absolute;
+	right: 40vw;
 }
 .caja2 {
 	position: absolute;
 	z-index: 1;
-	left: 80px;
+	right: 80px;
 	height: 100px;
 	width: 100px;
 	background: darkolivegreen;
@@ -58,11 +64,11 @@
 
 .Div-container {
 	display: block;
-	position: relative;
+	position: relative; /*Para poder posicionar las cajas o elementos hijos y que estos tomen como referencia a la caja contenedora hay que positionar la caja contenedora también en relative*/
 	background: rgb(148, 148, 148);
 	width: 300px;
 	height: 300px;
-	margin: 30px auto;
+	margin: 30px;
 }
 
 .Div-container div {
@@ -71,17 +77,40 @@
 	width: 50px;
 	height: 50px;
 	background: burlywood;
+	text-align: center;
 }
 .Div-caja1 {
 	top: 0;
 }
 .Div-caja2 {
-	bottom: 0;
+	right: 0;
 }
 .Div-caja3 {
+	bottom: 0;
 	right: 0;
 }
 .Div-caja4 {
 	bottom: 0;
+}
+.Div-caja5 {
+	/*Para alinear una caja o un elemento dentro de otro para no tener que ponernos a medir lo que debemos hacer es colocar el elemento en una position absolut y ademas colocar todas sus propiedades en 0 como las tenemos aquí, y además de eso colocar un margin auto para que finalmente nos lo centre*/
+	margin: auto;
+	top: 0%;
+	bottom: 0;
+	left: 0;
 	right: 0;
+}
+.lorem {
+	font-size: larger;
+	margin: 10px 70px;
+}
+
+.div-display div {
+	font-size: 2em;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	background: burlywood;
+	border: 10px solid sienna;
+	display: inline-block;
 }
